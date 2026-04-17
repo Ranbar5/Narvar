@@ -5,11 +5,11 @@ import { inspectAttr } from 'kimi-plugin-inspect-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/Narvar/',
+  base: './',
   plugins: [inspectAttr(), react()],
   resolve: {
     alias: {
-      "@": path.resolve(__dirname, "./src"),
+      "@": path.resolve(__dirname, "src"),
     },
   },
 });

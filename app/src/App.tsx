@@ -178,7 +178,7 @@ function QuizComponent({ questions, onComplete }: { questions: QuizQuestion[]; o
 const c1t1Content = (
   <div className="space-y-6">
     <div className="relative h-64 rounded-2xl overflow-hidden mb-8">
-      <img src="/hero-ai-brain.jpg" alt="AI Brain" className="w-full h-full object-cover" />
+      <img src="hero-ai-brain.jpg" alt="AI Brain" className="w-full h-full object-cover" />
       <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" />
       <div className="absolute bottom-4 left-4 right-4">
         <h3 className="text-2xl font-bold text-white drop-shadow-lg">¿Qué es la Inteligencia Artificial?</h3>
@@ -305,7 +305,7 @@ const c1t2Content = (
     </p>
 
     <div className="relative h-56 rounded-2xl overflow-hidden my-6">
-      <img src="/ml-process.jpg" alt="Machine Learning Process" className="w-full h-full object-cover" />
+      <img src="ml-process.jpg" alt="Machine Learning Process" className="w-full h-full object-cover" />
       <div className="absolute inset-0 bg-gradient-to-r from-black/70 to-transparent" />
     </div>
 
@@ -900,7 +900,7 @@ const c1t6Content = (
     </p>
 
     <div className="relative h-56 rounded-2xl overflow-hidden my-6">
-      <img src="/data-center.jpg" alt="Data Center" className="w-full h-full object-cover" />
+      <img src="data-center.jpg" alt="Data Center" className="w-full h-full object-cover" />
       <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" />
     </div>
 
