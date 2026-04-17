@@ -3383,8 +3383,8 @@ function App() {
             <div className="flex justify-center mb-6">
               <Brain className="w-20 h-20 text-cyan-400" />
             </div>
-            <h1 className="text-5xl md:text-8xl font-black mb-6 tracking-tighter" style={{ textShadow: '0 0 40px rgba(6, 182, 212, 0.6)' }}>
-              NAR<span className="text-purple-500 italic">VAR</span>
+            <h1 className="text-4xl md:text-6xl font-black mb-6 tracking-tighter" style={{ textShadow: '0 0 30px rgba(6, 182, 212, 0.4)' }}>
+              Bases de <span className="bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent">Inteligencia Artificial</span>
             </h1>
             <p className="text-xl text-gray-400 max-w-2xl mx-auto mb-8">
               Curso completo de fundamentos a técnicas avanzadas de Inteligencia Artificial Predictiva
@@ -3811,7 +3811,7 @@ function App() {
             <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-cyan-500 to-purple-600 flex items-center justify-center border border-white/20 shadow-lg shadow-cyan-500/20">
               <Brain className="w-6 h-6 text-white" />
             </div>
-            <span className="text-2xl font-black tracking-tighter">NAR<span className="text-purple-500 italic">VAR</span></span>
+            <span className="text-xl font-black tracking-tighter">Bases de <span className="text-cyan-400">IA</span></span>
           </div>
 
           <div className="hidden md:flex items-center gap-8">
